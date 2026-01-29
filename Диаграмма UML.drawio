@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Страница-1" id="eIdtAD6257_ZJaX5jdeM">
+    <mxGraphModel dx="2427" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="67iFqgzxq2UyykkdbmX3-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="" vertex="1">
+          <mxGeometry height="395" width="804" x="6" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-9" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="67iFqgzxq2UyykkdbmX3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EmployeeDescr" vertex="1">
+          <mxGeometry height="104" width="220" x="585" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-2" parent="67iFqgzxq2UyykkdbmX3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ type: EmployeeType" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-3" parent="67iFqgzxq2UyykkdbmX3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ base_salary: double" vertex="1">
+          <mxGeometry height="26" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-4" parent="67iFqgzxq2UyykkdbmX3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ hire_date: date_t" vertex="1">
+          <mxGeometry height="26" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;enum class&amp;gt;&amp;gt;&lt;/div&gt;EmployeeType" vertex="1">
+          <mxGeometry height="104" width="150" x="620" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-6" parent="67iFqgzxq2UyykkdbmX3-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="WORKER = 0" vertex="1">
+          <mxGeometry height="26" width="150" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-7" parent="67iFqgzxq2UyykkdbmX3-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="FOREMAN" vertex="1">
+          <mxGeometry height="26" width="150" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-8" parent="67iFqgzxq2UyykkdbmX3-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="MANAGER" vertex="1">
+          <mxGeometry height="26" width="150" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Employee&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="368" x="102" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-18" parent="67iFqgzxq2UyykkdbmX3-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;u&gt;+ create(description: const EmployeeDescr&amp;amp;): Employee*&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ get_type() const: EmployeeType = 0&lt;/i&gt;&lt;/div&gt;&lt;div&gt;+ get_id() const: const uuid_t&amp;amp;&lt;/div&gt;&lt;div&gt;+ get_hire_date() const: const date_t&amp;amp;&lt;/div&gt;&lt;div&gt;+ get_base_salary() const: double&lt;/div&gt;&lt;i&gt;+ ~Employee()&lt;/i&gt;" vertex="1">
+          <mxGeometry height="130" width="368" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-19" parent="67iFqgzxq2UyykkdbmX3-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="368" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-20" parent="67iFqgzxq2UyykkdbmX3-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Employee(description: const EmployeeDescr&amp;amp;)" vertex="1">
+          <mxGeometry height="26" width="368" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-27" parent="67iFqgzxq2UyykkdbmX3-17" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# hire_date: date_t&lt;div&gt;# base_salary_: double&lt;/div&gt;&lt;div&gt;# type_: EmployeeType&lt;/div&gt;" vertex="1">
+          <mxGeometry height="56" width="368" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-82" parent="67iFqgzxq2UyykkdbmX3-17" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id_: uuid_t" vertex="1">
+          <mxGeometry height="30" width="368" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-37" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;" target="67iFqgzxq2UyykkdbmX3-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-83" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;dashed=1;dashPattern=8 8;" target="67iFqgzxq2UyykkdbmX3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-22" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Worker" vertex="1">
+          <mxGeometry height="86" width="403" x="414" y="876" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-23" parent="67iFqgzxq2UyykkdbmX3-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ get_type() const: EmployeeType&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="403" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-24" parent="67iFqgzxq2UyykkdbmX3-22" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="403" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-25" parent="67iFqgzxq2UyykkdbmX3-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Worker(description: const EmployeeDescr&amp;amp;)" vertex="1">
+          <mxGeometry height="26" width="403" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-28" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Foreman" vertex="1">
+          <mxGeometry height="86" width="403" x="414" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-29" parent="67iFqgzxq2UyykkdbmX3-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ get_type() const: EmployeeType" vertex="1">
+          <mxGeometry height="26" width="403" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-30" parent="67iFqgzxq2UyykkdbmX3-28" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="403" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-31" parent="67iFqgzxq2UyykkdbmX3-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Foreman(description: const EmployeeDescr&amp;amp;)" vertex="1">
+          <mxGeometry height="26" width="403" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-85" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;" target="67iFqgzxq2UyykkdbmX3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-32" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Manager" vertex="1">
+          <mxGeometry height="86" width="403" x="414" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-33" parent="67iFqgzxq2UyykkdbmX3-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ get_type() const: EmployeeType" vertex="1">
+          <mxGeometry height="26" width="403" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-34" parent="67iFqgzxq2UyykkdbmX3-32" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="403" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-35" parent="67iFqgzxq2UyykkdbmX3-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Manager(description: const EmployeeDescr&amp;amp;)" vertex="1">
+          <mxGeometry height="26" width="403" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-46" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RelationManager" vertex="1">
+          <mxGeometry height="170" width="369" x="-289" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-47" parent="67iFqgzxq2UyykkdbmX3-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ add_relation(id_chief: const uuid_t&amp;amp;, id: const uuid_t&amp;amp;): bool&lt;div&gt;+ remove_relation(id_chief: const uuid_t&amp;amp;, id: const uuid_t&amp;amp;): bool&lt;/div&gt;&lt;div&gt;+ get_chief(id: const uuid_t&amp;amp;): optional&amp;lt;uuid_t&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ get_direct_subordinates(id: const uuid_t&amp;amp;) const: vector&amp;lt;uuid_t&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ get_all_subordinates(id: const uuid_t&amp;amp;) const: vector&amp;lt;uuid_t&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="369" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-48" parent="67iFqgzxq2UyykkdbmX3-46" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="369" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-49" parent="67iFqgzxq2UyykkdbmX3-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- mtx_: mutable mutex&lt;/div&gt;- sub_to_chief_: boost::unordered_map&amp;lt;uuid_t, uuid_t&amp;gt;&lt;div&gt;- chief_to_subs_: boost::unordered_multimap&amp;lt;uuid_t, uuid_t&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="369" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-78" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="67iFqgzxq2UyykkdbmX3-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-63" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EmployeeManager" vertex="1">
+          <mxGeometry height="254" width="479" x="46" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-64" parent="67iFqgzxq2UyykkdbmX3-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+&amp;nbsp;EmployeeManager()&lt;/div&gt;+ add_employee(description: const EmployeeDescr&amp;amp;): pair&amp;lt;uuid_t, bool&amp;gt;&lt;div&gt;+ remove_employee(id: uuid_t): bool&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ find_employee(id: const uuid_t&amp;amp;) const: optional&amp;lt;EmployeeDescr&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ add_subordination(chief: const uuid_t&amp;amp;, subordinate: const uuid_t&amp;amp;): bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ remove_subordination(chief: const uuid_t&amp;amp;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;subordinate: const uuid_t&amp;amp;): bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ get_chief(id: const uuid_t&amp;amp;): optional&amp;lt;uuid_t&amp;gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ get_direct_subordinates(id: const uuid_t&amp;amp;) const: vector&amp;lt;uuid_t&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ get_all_subordinates(id: const uuid_t&amp;amp;) const: vector&amp;lt;uuid_t&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ calculate_employee_salary(id: const uuid_t&amp;amp;, date: const date_t&amp;amp;): pair&amp;lt;double, bool&amp;gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ calculate_total_salary(month: const date_t&amp;amp;): double&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ calculate_typed_salary(month: const date_t&amp;amp;, type: EmployeeType): double&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="184" width="479" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-65" parent="67iFqgzxq2UyykkdbmX3-63" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="18" width="479" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-66" parent="67iFqgzxq2UyykkdbmX3-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- pData_: unique_ptr&amp;lt;PrivateData&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="479" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="u4zDeub5qWYiOx7GHfeg-8" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;div&gt;&amp;lt;&amp;lt;using&amp;gt;&amp;gt;&lt;/div&gt;date_t = boost::gregorian::date&lt;div&gt;uuid_t = boost::uuids:uuid&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="250" x="382" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-69" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="67iFqgzxq2UyykkdbmX3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="public" vertex="1">
+          <mxGeometry height="30" width="60" x="6" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-79" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="67iFqgzxq2UyykkdbmX3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-80" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=diamondThin;startFill=1;" target="67iFqgzxq2UyykkdbmX3-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EE_CLGG7IL_Cr3S_qAXT-5" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;" target="EE_CLGG7IL_Cr3S_qAXT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-72" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PrivateData" vertex="1">
+          <mxGeometry height="100" width="320" x="126" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-73" parent="67iFqgzxq2UyykkdbmX3-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ mtx: mutex&lt;/div&gt;+ employees: boost::unordered_map&amp;lt;uuid_t, Employee*&amp;gt;&lt;div&gt;+ relation_manager: RelationManager&lt;/div&gt;&lt;div&gt;+ salary_calculator: SalaryCalculator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="67iFqgzxq2UyykkdbmX3-76" edge="1" parent="1" source="67iFqgzxq2UyykkdbmX3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="67iFqgzxq2UyykkdbmX3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EE_CLGG7IL_Cr3S_qAXT-7" edge="1" parent="1" source="EE_CLGG7IL_Cr3S_qAXT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="67iFqgzxq2UyykkdbmX3-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EE_CLGG7IL_Cr3S_qAXT-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SalaryCalculator" vertex="1">
+          <mxGeometry height="182" width="651" x="-772" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="EE_CLGG7IL_Cr3S_qAXT-2" parent="EE_CLGG7IL_Cr3S_qAXT-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ SalaryCalculator(storage: const boost::unordered_map&amp;lt;uuid_t, Employee*&amp;gt;&amp;amp;, relation_mgr: const RelationManager&amp;amp;)&lt;div&gt;+ calculate_month_salary(id: const uuitd_t&amp;amp;, date: const date_t&amp;amp;) const: pair&amp;lt;double, bool&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="651" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EE_CLGG7IL_Cr3S_qAXT-3" parent="EE_CLGG7IL_Cr3S_qAXT-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="651" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EE_CLGG7IL_Cr3S_qAXT-4" parent="EE_CLGG7IL_Cr3S_qAXT-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;-&amp;nbsp;calculate_worker_salary(p_obj: const Employee*, date: const date_t&amp;amp;) const: pair&amp;lt;double, bool&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;-&amp;nbsp;calculate_foreman_salary(p_obj: const Employee*, date: const date_t&amp;amp;) const: pair&amp;lt;double, bool&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;-&amp;nbsp;calculate_manager_salary(p_obj: const Employee*, date: const date_t&amp;amp;) const: pair&amp;lt;double, bool&amp;gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="651" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EE_CLGG7IL_Cr3S_qAXT-10" parent="EE_CLGG7IL_Cr3S_qAXT-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- mtx_: mutable mutex&lt;/div&gt;- sub_to_chief_: boost::unordered_map&amp;lt;uuid_t, uuid_t&amp;gt;&lt;div&gt;- chief_to_subs_: boost::unordered_multimap&amp;lt;uuid_t, uuid_t&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="651" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
